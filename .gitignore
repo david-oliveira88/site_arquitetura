@@ -37,5 +37,5 @@ logs
 *.tmp
 *.temp
 
-# Build output
+# Build output (for GitHub Actions)
 public/
