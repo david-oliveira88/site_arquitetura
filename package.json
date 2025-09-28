@@ -1,0 +1,16 @@
+{
+  "name": "ga-arquitetura-site",
+  "version": "1.0.0",
+  "description": "Site da GA Arquitetura - Escritório de Arquitetura e Design de Interiores em Recife",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "keywords": ["arquitetura", "design-interiores", "recife", "pernambuco"],
+  "author": "GA Arquitetura",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
